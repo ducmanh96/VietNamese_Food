@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ベトナム飲食</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link href="css/stlyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id = "wrapper">
+   <div class="header">
+       <div class="title">ベトナム飲食 </div>
+       <div class="subtitle">美味しいベトナム料理</div>
+       <div class="image">
+       <img id="img" onclick = "changeImage()" src = "images/header.jpg" alt ="">
+       </div>  
+  </div>
+   <div id = "navi">
+       <ul> 
+          <li><a href="home.html">ホーム</a></li>
+          <li><a href="pho.html">フォー</a></li>
+          <li><a href="xoi.html">餅米</a></li>
+          <li><a href="chao.html">お粥</a></li>
+          <li><a href="lau.html">鍋料理</a></li>
+          <li><a href="banhmy.html">バインミー</a></li>
+          <li><a href="bia.html">ビール</a></li>
+       </ul>   
+   </div> 
+   <!--時計とカレンダーを作成-->
+   <div class="app-container">
+            <p id="loading">Loading...</p>
+            <div id="main-container" style="visibility:hidden;">
+              <div class="analog-clock">
+                <div class="topics1">
+                    <svg width="140" height="140">
+                        <circle id="clock-face" cx="70" cy="70" r="65" />
+                        <line id="h-hand" x1="70" y1="70" x2="70" y2="38" />
+                        <line id="m-hand" x1="70" y1="70" x2="70" y2="20" />
+                        <line id="s-hand" x1="70" y1="70" x2="70" y2="12" />
+                        <line id="s-tail" x1="70" y1="70" x2="70" y2="56" />
+                        <text x="62" y="18">12</text>
+                        <text x="96" y="26">1</text>
+                        <text x="118" y="46">2</text>
+                        <text x="126" y="76">3</text>
+                        <text x="117" y="104">4</text>
+                        <text x="96" y="125">5</text>
+                        <text x="66" y="132">6</text>
+                        <text x="38" y="125">7</text>
+                        <text x="16" y="104">8</text>
+                        <text x="7" y="76">9</text>
+                        <text x="14" y="47">10</text>
+                        <text x="34" y="27">11</text>
+                    </svg>
+                    <div class="time-text">
+                        <span id="hr">00</span>
+                        <span>:</span>
+                        <span id="min">00</span>
+                        <span>:</span>
+                        <span id="sec">00</span>
+                        <span id="suffix">--</span>
+                    </div>
+                </div> 
+            </div> 
+<!--時計を作成-->
+
+ <div class="cal">
+   <div class="topics2">
+    <p id="day"></p>
+    <p id="date"></p>
+    <p id="month-year"></p>
+   </div>
+   </div>
+   </div>
+        
+    <!--ソーシャルネットワークの分を作成、インターネット必要です。-->    
+   <div class="topics3"><a href="https://www.facebook.com"><img src="https://img.icons8.com/cute-clipart/64/000000/facebook-new.png"/></a>
+                         <a href="https://twitter.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/twitter.png"/></a>
+   </div>                                       <div class="topics4"><a href="https://www.instagram.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/></a>
+                        <a href="https://www.tiktok.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/tiktok.png"/></a>                     
+   </div>                
+   <div class="topics5"><a href="https://www.youtube.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/youtube.png"/></a> 
+                        <a href="https://www.pinterest.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/pinterest.png"/></a>
+   
+   </div>
+
+   <div class="navi"></div>
+  </div>
+  <!--home.htmlの分を作成-->
+   <div class="main">
+   <div class="mtitle">ベトナム飲食の紹介</div>
+   <div class="mainimg"></div>
+   <div class="xoi"></div>
+   <div class="pho"></div>
+   <div class="chao"></div>
+   <div class="lau"></div>
+   <div class="banhmi"></div>
+   <div class="bia"></div>
+   <div class="content">
+   　
+    &nbsp;世界中に美味しい食物が多いのではないでしょうか。国の文化によって味も香りも食べ物を飾りも違いますね！このウェブでベトナム飲食を紹介していきたいと思います。ベトナムの料理と言えば美味しい物が多いですが六つ代表的な食料を紹介します。<br>
+   　&nbsp;先ずはフォーです。ベトナムの食べ物と言えばフォーがご存知している外国人が多いと思っています。バインミーはバンと材料で簡単に作られます。それから美味しい米で巧みな両手から美味しい餅米を作られます。それからお粥、鍋料理ですねえ。最後は食事もっと美味しくなるように美味しい飲み物のビールも足りずにはいられないのですよ。<br>
+    &nbsp;もっと詳しく知りたい方は次のページをご覧下さい。
+   </div>
+   </div>
+   <!--footerの分-->
+   <div class="footer">Copyright (C) 2000-2020 ベトナム飲食 Rights Reserved.</div>
+</div>
+</body>
+</html>

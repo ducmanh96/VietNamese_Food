@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>ベトナム飲食</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link href="css/stlyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <div id = "wrapper">
+       <div class="header">
+           <div class="title">ベトナム飲食 </div>
+           <div class="subtitle">美味しいベトナム料理</div>
+           <div class="image">
+           <img id="img" onclick = "changeImage()" src = "images/header.jpg" alt ="">
+           </div>  
+</div>
+       <div id = "navi">
+           <ul> 
+              <li><a href="home.html">ホーム</a></li>
+              <li><a href="pho.html">フォー</a></li>
+              <li><a href="xoi.html">餅米</a></li>
+              <li><a href="chao.html">お粥</a></li>
+              <li><a href="lau.html">鍋料理</a></li>
+              <li><a href="banhmy.html">バインミー</a></li>
+              <li><a href="bia.html">ビール</a></li>
+           </ul>   
+       </div> 
+       <!--時計とカレンダーを作成-->
+       <div class="app-container">
+                <p id="loading">Loading...</p>
+                <div id="main-container" style="visibility:hidden;">
+                  <div class="analog-clock">
+                    <div class="topics1">
+                        <svg width="140" height="140">
+                            <circle id="clock-face" cx="70" cy="70" r="65" />
+                            <line id="h-hand" x1="70" y1="70" x2="70" y2="38" />
+                            <line id="m-hand" x1="70" y1="70" x2="70" y2="20" />
+                            <line id="s-hand" x1="70" y1="70" x2="70" y2="12" />
+                            <line id="s-tail" x1="70" y1="70" x2="70" y2="56" />
+                            <text x="62" y="18">12</text>
+                            <text x="96" y="26">1</text>
+                            <text x="118" y="46">2</text>
+                            <text x="126" y="76">3</text>
+                            <text x="117" y="104">4</text>
+                            <text x="96" y="125">5</text>
+                            <text x="66" y="132">6</text>
+                            <text x="38" y="125">7</text>
+                            <text x="16" y="104">8</text>
+                            <text x="7" y="76">9</text>
+                            <text x="14" y="47">10</text>
+                            <text x="34" y="27">11</text>
+                        </svg>
+                        <div class="time-text">
+                            <span id="hr">00</span>
+                            <span>:</span>
+                            <span id="min">00</span>
+                            <span>:</span>
+                            <span id="sec">00</span>
+                            <span id="suffix">--</span>
+                        </div>
+                    </div> 
+                </div> 
+    <!--時計を作成-->
+     <div class="cal">
+       <div class="topics2">
+
+        <p id="day"></p>
+        <p id="date"></p>
+        <p id="month-year"></p>
+       </div>
+       </div>
+       </div>
+
+        <!--ソーシャルネットワークの分を作成-->    
+       <div class="topics3"><a href="https://www.facebook.com"><img src="https://img.icons8.com/cute-clipart/64/000000/facebook-new.png"/></a>
+                             <a href="https://twitter.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/twitter.png"/></a>
+       </div>                                       <div class="topics4"><a href="https://www.instagram.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/></a>
+                            <a href="https://www.tiktok.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/tiktok.png"/></a>                     
+       </div>                
+       <div class="topics5"><a href="https://www.youtube.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/youtube.png"/></a> 
+                            <a href="https://www.pinterest.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/pinterest.png"/></a>
+
+       </div>
+
+       <div class="navi"></div>
+</div>
+  <!--pho.htmlの分を作成-->
+   <div class="main">
+   <div class="mtitle">フォーの種類</div>
+   <div class="phomain1"></div>
+   <div class="phocontent1">
+      &nbsp;フォーの美味しいスープを作るためには様々な種類のスパイスが必要です。
+    しかし最も重要な材料は骨です。美味しいスープを作るため、長い時間骨を煮ます。<br>
+      &nbsp;鶏肉のフォー<br>
+     ベトナム料理でおなじみの温かい汁麺。米から作られるフォーは、おなかが満たされ身体も温まる一品です。スープのだしになった鶏肉が、ボリュームのある具としても楽しめます。<br>
+
+   </div>
+   <div class="phomain2"></div>
+   <div class="phocontent2">
+     &nbsp; 牛肉のフォー<br>
+    フォーボーの場合、載せる肉によってさまざまな種類があります。
+    最も代表的なものは、薄い生肉を載せた「フォータイ（Pho tai）」（tai＝生煮えの）です。熱いスープで湯がくようにして食べます<br>
+   </div>
+   <div class="phomain3"></div>
+   <div class="phocontent3">
+    &nbsp;フォーティン<br>
+    同じフォーでもこちらのフォーは他のお店とは違い、濃厚な味付けが特徴的。
+    一味違った美味しいフォーを味わえます。<br>
+    &nbsp;さらにフォーには、ネギとパクチーが大量に入っています。
+    それも濃厚なダシのアクセントになっており、本当に美味しいフォーが味わえます。味付けがしっかりしている分、1杯でお腹が十分満たされます。
+
+   </div>
+   <div class="pho1"></div>
+   <div class="pho2"></div>-->
+   <div class="pho3"></div>
+   
+   
+   </div>
+
+  
+  
+   <div class="footer">Copyright (C) 2000-2020 ベトナム飲食 Rights Reserved.</div>
+
+
+
+</div>
+</body>
+</html>

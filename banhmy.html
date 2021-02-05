@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>ベトナム飲食</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link href="css/stlyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id = "wrapper">
+   <div class="header">
+       <div class="title">ベトナム飲食 </div>
+       <div class="subtitle">美味しいベトナム料理</div>
+       <div class="image">
+       <img id="img" onclick = "changeImage()" src = "images/header.jpg" alt ="">
+       </div>  
+  </div>
+   <div id = "navi">
+       <ul> 
+          <li><a href="home.html">ホーム</a></li>
+          <li><a href="pho.html">フォー</a></li>
+          <li><a href="xoi.html">餅米</a></li>
+          <li><a href="chao.html">お粥</a></li>
+          <li><a href="lau.html">鍋料理</a></li>
+          <li><a href="banhmy.html">バインミー</a></li>
+          <li><a href="bia.html">ビール</a></li>
+       </ul>   
+   </div>
+   <!--時計とカレンダーを作成-->
+   <div class="app-container">
+            <p id="loading">Loading...</p>
+            <div id="main-container" style="visibility:hidden;">
+              <div class="analog-clock">
+                <div class="topics1">
+                    <svg width="140" height="140">
+                        <circle id="clock-face" cx="70" cy="70" r="65" />
+                        <line id="h-hand" x1="70" y1="70" x2="70" y2="38" />
+                        <line id="m-hand" x1="70" y1="70" x2="70" y2="20" />
+                        <line id="s-hand" x1="70" y1="70" x2="70" y2="12" />
+                        <line id="s-tail" x1="70" y1="70" x2="70" y2="56" />
+                        <text x="62" y="18">12</text>
+                        <text x="96" y="26">1</text>
+                        <text x="118" y="46">2</text>
+                        <text x="126" y="76">3</text>
+                        <text x="117" y="104">4</text>
+                        <text x="96" y="125">5</text>
+                        <text x="66" y="132">6</text>
+                        <text x="38" y="125">7</text>
+                        <text x="16" y="104">8</text>
+                        <text x="7" y="76">9</text>
+                        <text x="14" y="47">10</text>
+                        <text x="34" y="27">11</text>
+                    </svg>
+                    <div class="time-text">
+                        <span id="hr">00</span>
+                        <span>:</span>
+                        <span id="min">00</span>
+                        <span>:</span>
+                        <span id="sec">00</span>
+                        <span id="suffix">--</span>
+                    </div>
+                </div> 
+            </div> 
+            <!--時計を作成-->
+               <div class="cal">
+                <div class="topics2">
+　　             
+                    <p id="day"></p>
+                    <p id="date"></p>
+                    <p id="month-year"></p>
+                </div>
+                </div>
+        </div>
+   <div class="topics3"><a href="https://www.facebook.com"><img src="https://img.icons8.com/cute-clipart/64/000000/facebook-new.png"/></a>
+                         <a href="https://twitter.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/twitter.png"/></a>
+   </div>                                   <div class="topics4"><a href="https://www.instagram.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/></a>
+                        <a href="https://www.tiktok.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/tiktok.png"/></a>                     
+   </div>                
+   <div class="topics5"><a href="https://www.youtube.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/youtube.png"/></a> 
+                        <a href="https://www.pinterest.com/"><img src="https://img.icons8.com/cute-clipart/64/000000/pinterest.png"/></a>
+   
+   </div>
+   
+   <div class="navi"></div>
+  </div>
+   <!--banhmy.htmlの分を作成-->
+   <div class="main">
+   <div class="mtitle">バインミーの種類</div>
+   <div class="banhmymain1"></div>
+   <div class="banhmycontent1">
+    &nbsp;バインミーソッヴァン<br>
+    バインミーソッヴァンはベトナム人に大人気の料理です。パンは香り高く焼き上げられます
+    ソッヴァンは牛すじとスパイスで作られています。パンとソッヴァンを付けて、口に乗せてからとても美味しい食品を感じます。   
+   </div>
+   <div class="banhmymain2"></div>
+   <div class="banhmycontent2">
+    &nbsp;バインミー卵<br>
+    卵パンは目玉焼きから作られています。焼いたパンにきゅうりとコリアンダーとにんじんと焼いた卵を入れて、すぐに食べます。<br>
+    &nbsp;この食品もベトナム人にとって超便利で時間制約の食品です。
+
+   </div>
+   <div class="banhmymain3"></div>
+   <div class="banhmycontent3">
+    &nbsp;バインミーパテ<br>
+    バインミーパテはとても身近な朝食料理で、多くのベトナム人にもとても人気があります。
+    それは、脂っこいパテおよびその他のリッチ成分を配合したバインミーのカリカリクランチ、と高速なだけでなく、非常においしい便利なだけではない一品です。
+
+   </div>
+   <div class="banhmy1"></div>
+   <div class="banhmy2"></div>
+   <div class="banhmy3"></div>
+   </div>
+   <div class="footer">Copyright (C) 2000-2020 ベトナム飲食 Rights Reserved.</div>
+</div>
+</body>
+</html>
