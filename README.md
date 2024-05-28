@@ -1,5 +1,3 @@
-# Creating the content for the README.md file
-
 # Vietnamese Cuisine Introduction Project
 
 ## Introduction
