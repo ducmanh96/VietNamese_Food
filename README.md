@@ -1,5 +1,5 @@
 # Creating the content for the README.md file
-readme_content = """
+
 # Vietnamese Cuisine Introduction Project
 
 ## Introduction
@@ -50,7 +50,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Access the Website
 
 You can access the website directly [here](https://ducmanh96.github.io/VietNamese_Food/home.html).
-"""
+
 
 # Saving the content to a README.md file
 with open("/mnt/data/README.md", "w") as file:
