@@ -1,5 +1,7 @@
 Vietnamese Cuisine Introduction Project
+
 Introduction
+
 This is my freshman year project aimed at introducing Vietnamese cuisine to Japanese friends and teachers at my school. The website is designed using HTML, CSS, and JavaScript, with images and interface design created using Adobe Photoshop.
 
 Content
@@ -27,7 +29,7 @@ Contribution
 If you would like to contribute to this project, please create a pull request or open a new issue on GitHub.
 
 Contact
-If you have any questions, feel free to contact me via email: your-email@example.com.
+If you have any questions, feel free to contact me via email: ducmanh96.vp@gmail.com.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
