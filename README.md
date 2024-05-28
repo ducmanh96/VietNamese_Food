@@ -49,7 +49,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 You can access the website directly [here](https://ducmanh96.github.io/VietNamese_Food/home.html).
 
-
-# Saving the content to a README.md file
-with open("/mnt/data/README.md", "w") as file:
-    file.write(readme_content)
